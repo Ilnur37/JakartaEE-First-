@@ -2,14 +2,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>JSP - Hello World</title>
+    <title>Main</title>
 </head>
 <body>
-<h1><%= "Hello World!" %>
+<h1><%= "Hello Main!" %>
 </h1>
 <br/>
 <a href="hello-servlet">Hello Servlet</a>
 <br/>
-<a href="FirstJsp.jsp">Current Date</a>
+<a href="date-jsp">Current Date</a>
 </body>
 </html>

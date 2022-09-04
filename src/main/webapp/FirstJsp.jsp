@@ -9,12 +9,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>First JSP1</title>
+    <title>Date Jsp</title>
 </head>
 <body>
 <h1>Test JSP</h1>
 <p>
-    <%= new java.util.Date()%>
+    <%
+        java.util.Date now = new java.util.Date();
+        String date = "Текущее время: " + now;
+    %>
+    <%= date%>
 </p>
 </body>
 </html>
